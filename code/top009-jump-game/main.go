@@ -35,6 +35,13 @@ func canJump(nums []int) bool {
 	}
 	return true
 }
+func max(nums ...int) int {
+	sum := 0
+	for _, num := range nums {
+		sum += num
+	}
+	return sum
+}
 
 func main() {
 	fmt.Println(canJump([]int{0, 1}))
