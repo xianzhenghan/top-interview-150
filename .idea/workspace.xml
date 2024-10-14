@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="565eba3e-4359-4a68-8002-ff9a944ce071" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/top009-jump-game/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/top009-jump-game/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/top007-best-time-to-buy-and-sell-stock/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/top007-best-time-to-buy-and-sell-stock/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/skills/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills/图解摩尔投票法.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,34 +27,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2mjfp41kgMq2BWt2gMpEPDdT5ll" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Go Build.go build top-interview-150.executor": "Run",
-    "Go Build.go build top-interview-150/code/top013-gas-station.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "C:/Users/Administrator",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/golang/top-interview-150/main.go",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build top-interview-150.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build top-interview-150/code/top013-gas-station.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build top-interview-150/code/top014-candy.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build top-interview-150.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build top-interview-150/code/top014-candy.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build top-interview-150/skills.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/golang-trick&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/golang/top-interview-150/main.go&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Go Build.go build top-interview-150/code/top013-gas-station">
+}</component>
+  <component name="RunManager" selected="Go 构建.go build top-interview-150">
     <configuration name="go build top-interview-150" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="top-interview-150" />
       <working_directory value="$PROJECT_DIR$" />
@@ -70,10 +77,29 @@
       <filePath value="$PROJECT_DIR$/code/top013-gas-station/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build top-interview-150/code/top014-candy" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="top-interview-150" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="top-interview-150/code/top014-candy" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/code/top014-candy/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build top-interview-150/skills" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="top-interview-150" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="top-interview-150/skills" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/skills/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build top-interview-150/code/top013-gas-station" />
-        <item itemvalue="Go Build.go build top-interview-150" />
+        <item itemvalue="Go 构建.go build top-interview-150" />
+        <item itemvalue="Go 构建.go build top-interview-150/code/top014-candy" />
+        <item itemvalue="Go 构建.go build top-interview-150/skills" />
       </list>
     </recent_temporary>
   </component>
@@ -91,16 +117,5 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/main.go</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

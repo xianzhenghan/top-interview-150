@@ -1,25 +1,45 @@
 package main
 
 import (
-  "fmt"
+	"fmt"
+	"time"
 )
 
-//TIP To run your code, right-click the code and select <b>Run</b>. Alternatively, click
-// the <icon src="AllIcons.Actions.Execute"/> icon in the gutter and select the <b>Run</b> menu item from here.
-
 func main() {
-  //TIP Press <shortcut actionId="ShowIntentionActions"/> when your caret is at the underlined or highlighted text
-  // to see how GoLand suggests fixing it.
-  s := "gopher"
-  fmt.Println("Hello and welcome, %s!", s)
+	messages := make(chan string)
+	signals := make(chan bool)
 
-  for i := 1; i <= 5; i++ {
-	//TIP You can try debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-	// for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>. To start your debugging session, 
-	// right-click your code in the editor and select the <b>Debug</b> option. 
-	fmt.Println("i =", 100/i)
-  }
+	//非阻塞接收，有可以用就直接用，没有就默认，不等待
+	fmt.Println("程序开始执行...")
+	go func() {
+		time.Sleep(time.Second * 2)
+		messages <- "结果  num one"
+	}()
+
+	//如果存在default 那么就是非阻塞 有可以用就直接用，没有就默认，不等待。
+	//如果将下面的default语句块注释，那么select会等待接收messages中的值。
+	select {
+	case msg := <-messages:
+		fmt.Println("A 收到消息", msg)
+	default:
+		fmt.Println("C 没有消息收到")
+
+	}
+
+	msg := "hi baby"
+	select {
+	case messages <- msg:
+		fmt.Println("B sent message", msg)
+	default:
+		fmt.Println("B no message sent")
+	}
+
+	select {
+	case msg := <-messages:
+		fmt.Println("C收到消息", msg)
+	case sig := <-signals:
+		fmt.Println("C收到消息", sig)
+	default:
+		fmt.Println("C no  activity")
+	}
 }
-
-//TIP See GoLand help at <a href="https://www.jetbrains.com/help/go/">jetbrains.com/help/go/</a>.
-// Also, you can try interactive lessons for GoLand by selecting 'Help | Learn IDE Features' from the main menu.

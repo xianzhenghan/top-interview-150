@@ -38,6 +38,20 @@ func maxProfitv2(prices []int) int {
 	return maxProfit
 }
 
+func min(n1, n2 int) int {
+	if n1 > n2 {
+		return n2
+	}
+	return n1
+}
+
+func max(n1, n2 int) int {
+	if n1 > n2 {
+		return n1
+	}
+	return n2
+}
+
 func maxProfit(prices []int) int {
 	maxProfit := 0
 	for i := 0; i < len(prices)-1; i++ {
