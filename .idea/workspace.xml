@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="565eba3e-4359-4a68-8002-ff9a944ce071" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/top107-roman-to-integer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/top017-roman-to-integer/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/skills/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,48 +31,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Go Build.go build top-interview-150.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build top-interview-150/code/top013-gas-station.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build top-interview-150/code/top014-candy.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build top-interview-150.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build top-interview-150/code.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build top-interview-150/code/top008-best-time-to-buy-and-sell-stock-ii.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build top-interview-150/code/top014-candy.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build top-interview-150/code/top015-trapping-rain-water.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build top-interview-150/code/top016-roman-to-integer.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build top-interview-150/code/top107-roman-to-integer.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build top-interview-150/skills.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/golang-trick&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/golang/top-interview-150/main.go&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build top-interview-150.executor": "Run",
+    "Go Build.go build top-interview-150/code/top013-gas-station.executor": "Run",
+    "Go Build.go build top-interview-150/code/top014-candy.executor": "Run",
+    "Go 构建.go build top-interview-150.executor": "Run",
+    "Go 构建.go build top-interview-150/code.executor": "Run",
+    "Go 构建.go build top-interview-150/code/top008-best-time-to-buy-and-sell-stock-ii.executor": "Run",
+    "Go 构建.go build top-interview-150/code/top014-candy.executor": "Run",
+    "Go 构建.go build top-interview-150/code/top015-trapping-rain-water.executor": "Run",
+    "Go 构建.go build top-interview-150/code/top016-roman-to-integer.executor": "Run",
+    "Go 构建.go build top-interview-150/code/top018-length-of-last-word.executor": "Run",
+    "Go 构建.go build top-interview-150/code/top019-longest-common-prefix.executor": "Run",
+    "Go 构建.go build top-interview-150/code/top107-roman-to-integer.executor": "Run",
+    "Go 构建.go build top-interview-150/skills.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "E:/golang-trick",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/golang/top-interview-150/main.go",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\golang\top-interview-150\code\top016-roman-to-integer" />
       <recent name="E:\golang\top-interview-150\code\top107-roman-to-integer" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build top-interview-150/code/top019-longest-common-prefix">
-    <configuration name="go build top-interview-150/code/top016-roman-to-integer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go 构建.go build top-interview-150/code">
+    <configuration name="go build top-interview-150/code" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="top-interview-150" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="top-interview-150/code/top016-roman-to-integer" />
+      <package value="top-interview-150/code" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/code/top016-roman-to-integer/top-roman-to-integer.go" />
+      <filePath value="$PROJECT_DIR$/code/top109-reverse-words-in-a-stringt.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build top-interview-150/code/top018-length-of-last-word" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build top-interview-150/code" />
         <item itemvalue="Go 构建.go build top-interview-150/code/top019-longest-common-prefix" />
         <item itemvalue="Go 构建.go build top-interview-150/code/top018-length-of-last-word" />
         <item itemvalue="Go 构建.go build top-interview-150/skills" />
         <item itemvalue="Go 构建.go build top-interview-150/code/top107-roman-to-integer" />
-        <item itemvalue="Go 构建.go build top-interview-150/code/top016-roman-to-integer" />
       </list>
     </recent_temporary>
   </component>
