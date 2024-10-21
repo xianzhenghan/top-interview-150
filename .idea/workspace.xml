@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="565eba3e-4359-4a68-8002-ff9a944ce071" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/top007-best-time-to-buy-and-sell-stock/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/top007-best-time-to-buy-and-sell-stock/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/top107-roman-to-integer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/top017-roman-to-integer/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skills/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/skills/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/图解摩尔投票法.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,12 @@
     &quot;Go Build.go build top-interview-150/code/top013-gas-station.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build top-interview-150/code/top014-candy.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build top-interview-150.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build top-interview-150/code.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build top-interview-150/code/top008-best-time-to-buy-and-sell-stock-ii.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build top-interview-150/code/top014-candy.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build top-interview-150/code/top015-trapping-rain-water.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build top-interview-150/code/top016-roman-to-integer.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build top-interview-150/code/top107-roman-to-integer.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build top-interview-150/skills.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
@@ -58,32 +62,47 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go 构建.go build top-interview-150">
-    <configuration name="go build top-interview-150" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\golang\top-interview-150\code\top016-roman-to-integer" />
+      <recent name="E:\golang\top-interview-150\code\top107-roman-to-integer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go 构建.go build top-interview-150/code/top019-longest-common-prefix">
+    <configuration name="go build top-interview-150/code/top016-roman-to-integer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="top-interview-150" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="top-interview-150" />
+      <package value="top-interview-150/code/top016-roman-to-integer" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main.go" />
+      <filePath value="$PROJECT_DIR$/code/top016-roman-to-integer/top-roman-to-integer.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build top-interview-150/code/top013-gas-station" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build top-interview-150/code/top018-length-of-last-word" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="top-interview-150" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="top-interview-150/code/top013-gas-station" />
+      <package value="top-interview-150/code/top018-length-of-last-word" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/code/top013-gas-station/main.go" />
+      <filePath value="$PROJECT_DIR$/code/top018-length-of-last-word/mian.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build top-interview-150/code/top014-candy" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build top-interview-150/code/top019-longest-common-prefix" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="top-interview-150" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="top-interview-150/code/top014-candy" />
+      <package value="top-interview-150/code/top019-longest-common-prefix" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/code/top014-candy/main.go" />
+      <filePath value="$PROJECT_DIR$/code/top019-longest-common-prefix/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build top-interview-150/code/top107-roman-to-integer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="top-interview-150" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="top-interview-150/code/top107-roman-to-integer" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/code/top107-roman-to-integer/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build top-interview-150/skills" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -97,9 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build top-interview-150" />
-        <item itemvalue="Go 构建.go build top-interview-150/code/top014-candy" />
+        <item itemvalue="Go 构建.go build top-interview-150/code/top019-longest-common-prefix" />
+        <item itemvalue="Go 构建.go build top-interview-150/code/top018-length-of-last-word" />
         <item itemvalue="Go 构建.go build top-interview-150/skills" />
+        <item itemvalue="Go 构建.go build top-interview-150/code/top107-roman-to-integer" />
+        <item itemvalue="Go 构建.go build top-interview-150/code/top016-roman-to-integer" />
       </list>
     </recent_temporary>
   </component>
