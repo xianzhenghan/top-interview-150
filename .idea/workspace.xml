@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="565eba3e-4359-4a68-8002-ff9a944ce071" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/goskills/goroutine/printabc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goskills/goroutine/printcatdogfish.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills/main.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,9 @@
     "Go 构建.go build top-interview-150/code/top016-roman-to-integer.executor": "Run",
     "Go 构建.go build top-interview-150/code/top018-length-of-last-word.executor": "Run",
     "Go 构建.go build top-interview-150/code/top019-longest-common-prefix.executor": "Run",
+    "Go 构建.go build top-interview-150/code/top021-zigzag-conversion.executor": "Run",
     "Go 构建.go build top-interview-150/code/top107-roman-to-integer.executor": "Run",
+    "Go 构建.go build top-interview-150/goskills/goroutine.executor": "Run",
     "Go 构建.go build top-interview-150/skills.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -63,11 +68,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\golang\top-interview-150\goskills\goroutine" />
+      <recent name="E:\golang\top-interview-150\code\zigzag-conversion" />
       <recent name="E:\golang\top-interview-150\code\top016-roman-to-integer" />
       <recent name="E:\golang\top-interview-150\code\top107-roman-to-integer" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build top-interview-150/code">
+  <component name="RunManager" selected="Go 构建.go build top-interview-150/goskills/goroutine">
     <configuration name="go build top-interview-150/code" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="top-interview-150" />
       <working_directory value="$PROJECT_DIR$" />
@@ -95,31 +102,31 @@
       <filePath value="$PROJECT_DIR$/code/top019-longest-common-prefix/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build top-interview-150/code/top107-roman-to-integer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build top-interview-150/code/top021-zigzag-conversion" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="top-interview-150" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="top-interview-150/code/top107-roman-to-integer" />
+      <package value="top-interview-150/code/top021-zigzag-conversion" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/code/top107-roman-to-integer/main.go" />
+      <filePath value="$PROJECT_DIR$/code/top021-zigzag-conversion/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build top-interview-150/skills" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build top-interview-150/goskills/goroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="top-interview-150" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="top-interview-150/skills" />
+      <package value="top-interview-150/goskills/goroutine" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/skills/main.go" />
+      <filePath value="$PROJECT_DIR$/goskills/goroutine/printabc.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build top-interview-150/goskills/goroutine" />
+        <item itemvalue="Go 构建.go build top-interview-150/code/top021-zigzag-conversion" />
         <item itemvalue="Go 构建.go build top-interview-150/code" />
         <item itemvalue="Go 构建.go build top-interview-150/code/top019-longest-common-prefix" />
         <item itemvalue="Go 构建.go build top-interview-150/code/top018-length-of-last-word" />
-        <item itemvalue="Go 构建.go build top-interview-150/skills" />
-        <item itemvalue="Go 构建.go build top-interview-150/code/top107-roman-to-integer" />
       </list>
     </recent_temporary>
   </component>
